@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../Images/light-grey-terrazzo.png");
+}
+
+
+.navbar-brand {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card-header {
+    background-color: aqua;
+    height: 10px;
+
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-text {
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.card {
+    float: left;
+}
+.Title-footer {
+    font-size: 22px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dedede;
+}
+
+.image-text {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 160px;
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+.card-header-footer {
+    background-color: aqua;
+    height: 10px;
+}
