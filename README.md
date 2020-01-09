@@ -11,23 +11,23 @@ It will be the first Point of Contact where I can showcase my applications to pe
 
 ### File List:
 
-1. index-BS.html
+1. Index-BS.html
     
     Main Page and 'About" links
 
-2. portfolio-BS.html    
+2. Portfolio-BS.html    
     
     Portfolio link 
 
-3. contact-BS.html      
+3. Contact-BS.html      
 
     Contact link
 
-4. style.css         
+4. Style.css         
 
     Stylesheet for all
 
-5. reset.css
+5. Reset.css
 
     Compressed set of CSS rules that resets the styling of all HTML elements to a consistent baseline.
 
