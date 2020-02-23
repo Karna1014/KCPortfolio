@@ -2,67 +2,116 @@
 <html>
     <head>
         <title>Karna Cutolo</title>
-            <link rel="stylesheet" type="text/css" href="Assets/CSS/Reset.css">
+            
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
             <link href="Assets/CSS/style.css" rel="stylesheet">
-    </head>   
+    <!-------link to jQuery file-->
+            <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-------link to CSS Reset file-->
+            <link rel="stylesheet" type="text/css" href="Assets/CSS/Reset.css">
+    <!-- link to the custom css file -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            <link type="text/css" rel="stylesheet" href="Assets/CSS/material.css"  media="screen,projection"/>
+            <link href="Assets/CSS/style.css" rel="stylesheet" >
+    <!-------link to Fontawesome-->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <!-------link to GoogleFonts-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          </head>   
     <body>
         <header>
             <!-- Navbar (sit on top) --> 
-            <nav class="navbar navbar-expand-sm bg-light">
-            <div class="container-fluid"> 
-              <div class="container" style="padding-left: 0px !important;">
-                    <div class="row col-lg-3 col-md-3 row col-sm-12">
-                      <a class="navbar-brand mr-p-2" href="index.html">Karna Cutolo</a>
-                    </div>
-                    <div class="row">
-                      <div class="d-flex justify-content-lg-right">
-                      <div class="d-flex justify-content-md-right">  
-                      <div class="d-flex justify-content-sm-center">
-                      </div>
-                      <ul class="nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">About</a>
-                          <li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="portfolio-BS.html">Portfolio</a>
-                          </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact-BS.html">Contact</a>
-                            </li>
-                      </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <nav>
+              <div class="nav-wrapper">
+                <a href="index.html" class="nameBar" style="margin: 0; padding-left: 10px;">Karna Cutolo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class=
+                  "material-icons" style= "color: #3f51b5;">menu</i></a>
+                <ul class="right hide-on-med-and-down" id="nav-mobile">
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="portfolio-BS.html">Portfolio</a></li>
+                  <li><a href="contact-BS.html">Contact</a></li>
+                </ul>
               </div>
             </nav>
+          
+            <ul class="right sidenav" id="mobile-demo">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio-BS.html">Portfolio</a></li>
+              <li><a href="contact-BS.html">Contact</a></li>
+            </ul>
+                      
         </header>
-          <div class="container">
-            <div class="card bg-light" style= "margin-top: 30px; margin-bottom: 100px;" style="margin-bottom: 120px;">
-                <div class="card-body">
-                    <h1 class="card-title">About Me</h1> 
-                        <img src="./Assets/Images/Selfie1.jpg" class="rounded-circle" alt="My Photo" id="Image" 
-                        width= "200" height= "200">
-                    <div class="auto">
-                        <div class="card-text ml-auto">
-                            <p>Welcome! Raised in an Italian kitchen, it will always be my place of refuge.  I love all things "food."  Sunday dinners, Christmas baking, family gatherings...I'm in!  I gravitate towards the puzzle, the hunt for the solution.  It travels through everything I am.  I love to shop, be it grocery or other but love to search a good deal.  I began my career in retail but moved into Operations - where everyday is an adventure, a puzzle.  </p>
-                            <p>Professionally, I am an adaptable and organized professional with over 25 years of career progression in operations and customer service management. Effective at liaising with key clients, accounts and external business stakeholders, I offer the ability to leverage trends across industries to derive solutions and approaches focused on creating value for customers and profitability for company. I have a demonstrated ability to streamline processes and improving throughput through continuous modifications and cross-functional collaboration for efficiency and productivity.  I am focused and meticulous in all financial and regulatory compliance objectives to strategically plan and execute budgets, cost-reduction techniques and safety initiatives. I have a strong history of devising precise and targeted business operations plans, managing multifaceted areas, reviewing performance and driving change. I energetically address customer requests and concerns to provide relevant information and options. Handle difficult situations with grace through resourcefulness and adaptability. I have and will continue to persistently shape high-performing teams and inspiring staff to achieve personal as well as professional goals.</p>
-                        </div>        
-                    </div>
-                </div> 
-            </div>  
-          </div>
-          <section>
-            <footer>  
-              <div class="card" id="myFooter">
-                <div class="card-header-footer width-100% bg-aqua">
-                  </div>
-                <p class="card-title bg-secondary text-center text-white" id="indexBody">Copyright © Karna Cutolo</p>
+        <div class="container" style="background-color: #ffffff; margin-top: 10px;">
+          <div class="row" style="margin-bottom: 0;">
+              <div class="col m5 s12">
+                  <img src="./Assets/Images/Selfie1.jpg" class="circle img-responsive;" alt="My Photo" id="self-Image" 
+                  width= "175" height= "175"> 
               </div>
-            </footer>
-         </section> 
+              <div class="col m7 s12">
+                  <span class="card-title" style="margin-left: 0px;font-size: 35px; 
+                      font-weight: bold;">About Me</span>
+                      <p class="para">
+                        Welcome! Raised in an Italian kitchen, it will always be
+                        my place of refuge.  I love all things "food."  Sunday dinners,
+                        Christmas baking, family gatherings...I'm in!  I gravitate towards
+                        the puzzle, the hunt for the solution.  It travels through 
+                        everything I am. I began my career in retail and transitioned into 
+                        Operations - where everyday is an adventure, a puzzle in search of a
+                        solution. 
+                      </p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+                      <p class="para">
+                        Professionally, I am an adaptable and organized professional with
+                        over 25 years of career progression in operations and customer 
+                        service management. Effective at liaising with key clients, 
+                        accounts and external business stakeholders, I offer the ability
+                        to leverage trends across industries to derive solutions and 
+                        approaches focused on creating value for customers and profitability
+                        for company. I have a demonstrated ability to streamline processes
+                        and improving throughput through continuous modifications and cross-
+                        functional collaboration for efficiency and productivity.  I am 
+                        focused and meticulous in all financial and regulatory compliance
+                        objectives to strategically plan and execute budgets, cost-reduction
+                        techniques and safety initiatives. I have a strong history of devising
+                        precise and targeted business operations plans, managing multifaceted 
+                        areas, reviewing performance and driving change. I energetically 
+                        customer requests and concerns to provide relevant information and options.
+                        Handle difficult situations with grace through resourcefulness and 
+                        adaptability. I have and will continue to persistently shape high-
+                        performing teams and inspiring staff to achieve personal as well as 
+                        professional goals. 
+                      </p>
+            </div>
+          </div>
+        </div>
+         
+          <footer class="page-footer">
+               <div class="container col s12">
+                    <div class="row center-align" style="background-color: #dedede; margin: 0px; font-size: 16px; 
+                        font-weight: bold;" id="socLinks">
+                            <a href="https://github.com/karna1014/"><i class="fab fa-github" 
+                                id="ftrIcon"></i> &nbsp; &nbsp; </a>
+                            <a href="./Assets/Images/KCutolo-Resume-2020.pdf"><i class="fas fa-file" 
+                                id="ftrIcon"></i> &nbsp; &nbsp; </a>
+                            <a href="https://linkedin.com/in/karnacutolo/"><i class="fab fa-linkedin" 
+                                id="ftrIcon"></i> &nbsp; &nbsp; </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container center-align" id="ftrCpy" style="background-color: #dedede; width: 100%; 
+                    color: #04166e; padding: 0px;">Copyright ©2019 All rights reserved | 
+                    This is my Portfolio
+                </div>
+            </div>
+        </footer>  
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src= "script.js"></script>
+        <script type="text/javascript" src="./materialize.js"></script>            
     </body>  
 </html>

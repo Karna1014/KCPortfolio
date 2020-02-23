@@ -4,20 +4,68 @@ body {
     background-image: url("../Images/light-grey-terrazzo.png");
 }
 
+/* Begin Navigation */
 
-.navbar-brand {
-    background-color: aqua;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.nav-wrapper {
+    background-color: #dedede;
+    color: #3f51b5;
+  }
+a.nameBar {
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #3f51b5;
+    font-size: 25px;
     font-weight: bold;
-    color: #ffffff;
-    margin-right: 0;
-    }
+}
+
+  #nav-mobile li > a {
+    color: #3f51b5;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .sidenav {
+    background-color: #dedede;
+    width: 200px;
+  }
+
+  .sidenav li > a {
+    color: #3f51b5;
+    font-size: 20px;
+    width: 200px;
+  }
+  
+/* End Navigation */
+
 
 .card-header {
     background-color: aqua;
     height: 10px;
-
+} 
+.card-title {
+    margin-left: 0px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    color: #3f51b5;
+    font-weight: bold;
 }
+.para {
+    font-size: 20px;
+    padding-top: 10px;
+    color: #04166e;
+}
+
+#self-Image { 
+    padding: 20px;
+    margin: 20px;
+}
+
+#self-Image:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 3;
+  }
+
 
 .container-fluid {
     padding-left: 0;
@@ -30,11 +78,26 @@ body {
 .card {
     float: left;
 }
-.Title-footer {
+
+#ftrIcon {
     font-size: 22px;
-    color: #4aaaa5;
-    border-bottom: 2px solid #dedede;
+    /* padding: 2rem; */
+    color: #3f51b5;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+  
+  #ftrIcon:hover {
+    color: rgb(131, 145, 190);
+
 }
+ footer.page-footer {
+     padding-top: 0;
+     background-color: #dedede;
+    /* background-image: url("../Images/light-grey-terrazzo.png"); */
+} 
 .card-text{
     position: relative !important
 }
@@ -47,33 +110,33 @@ body {
     color: #ffffff;
 }
 
-#myFooter {
-    width: 100%;
-}
+/* #myFooter {
+    width: 100%; */
+
 .card-header-footer {
     background-color: aqua;
     margin-bottom: 0;
     height: 10px;
 }
-.card-body-footer {
+/* .card-body-footer {
     height: 40px;
 }
 .card-text-footer {
     padding-top: 10px;
     margin-bottom: 0;
-    margin-top: 30px;
-}
+    margin-top: 30px; */
+
 
 #indexBody {
     height: 40px;
     padding-top: 10px;
     margin-bottom: 0 !important
 }
-.navbar-nav{
+/* .navbar-nav{
     flex-direction: row !important
-}
+} */
 
-@media screen and (min-width: 500px),
+/* @media screen and (min-width: 500px),
  (max-width: 768px) {
      .navbar-brand {
          width: 100%;
@@ -86,4 +149,4 @@ body {
          .nav-link {
              text-align: center;
               } 
-     } 
+     }  */
