@@ -76,9 +76,36 @@ a.nameBar {
 }
 
 .card {
-    float: left;
+    background-color: #3f51b5;
 }
 
+.card-img {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0;
+}
+
+img.card-img {
+    margin: 0;
+}
+#cardInfo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#exit {
+    font-size: 20px;
+}
+
+.card-reveal {
+    font-size: 20px;
+    }
+
+li {
+    font-size: 16px;
+}
 #ftrIcon {
     font-size: 22px;
     /* padding: 2rem; */
@@ -101,52 +128,24 @@ a.nameBar {
 .card-text{
     position: relative !important
 }
-.image-text {
-    background-color: #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 160px;
-    width: 100%;
-    color: #ffffff;
-}
+
 
 /* #myFooter {
     width: 100%; */
 
-.card-header-footer {
-    background-color: aqua;
-    margin-bottom: 0;
-    height: 10px;
-}
-/* .card-body-footer {
-    height: 40px;
+
+ .card-img {
+    padding: 20px;
 }
 .card-text-footer {
     padding-top: 10px;
     margin-bottom: 0;
-    margin-top: 30px; */
-
+    margin-top: 30px; 
+}
 
 #indexBody {
     height: 40px;
     padding-top: 10px;
     margin-bottom: 0 !important
 }
-/* .navbar-nav{
-    flex-direction: row !important
-} */
 
-/* @media screen and (min-width: 500px),
- (max-width: 768px) {
-     .navbar-brand {
-         width: 100%;
-         text-align: center;
-           }
-     }
-    
-@media screen and (min-width: 500px),
-     (max-width: 768px) {
-         .nav-link {
-             text-align: center;
-              } 
-     }  */
