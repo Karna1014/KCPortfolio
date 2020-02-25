@@ -2,14 +2,16 @@
 <html lang="en-US">
     <head>
         <title>Portfolio</title> 
-        <meta charset="utf-8">
+            
+            <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link href="Assets/CSS/style.css" rel="stylesheet">
     <!-------link to jQuery file-->
             <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-------link to CSS Reset file-->
+    <!-------link to Materialize-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.js"></script>
+    <!--------link to CSS Reset file-->
             <link rel="stylesheet" type="text/css" href="Assets/CSS/Reset.css">
-    <!-- link to the custom css file -->
+    <!--------link to the custom css file -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
             <link type="text/css" rel="stylesheet" href="Assets/CSS/material.css"  media="screen,projection"/>
             <link href="Assets/CSS/style.css" rel="stylesheet" >
@@ -17,188 +19,156 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <!-------link to GoogleFonts-->
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
     </head>
-  <body>
-    <header>
-        <!-- Navbar (sit on top) --> 
-        <nav>
-          <div class="nav-wrapper">
-            <a href="index.html" class="nameBar" style="margin: 0; padding-left: 10px;">Karna Cutolo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class=
-              "material-icons" style= "color: #3f51b5;">menu</i></a>
-            <ul class="right hide-on-med-and-down" id="nav-mobile">
+    <body>
+      <header>
+    <!-- Navbar (sit on top) --> 
+            <nav>
+              <div class="nav-wrapper">
+                <a href="index.html" class="nameBar" style="margin: 0; padding-left: 10px;">Karna Cutolo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class=
+                  "material-icons" style= "color: #3f51b5;">menu</i></a>
+                <ul class="right hide-on-med-and-down" id="nav-mobile">
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          
+            <ul class="right sidenav" id="mobile-demo">
               <li><a href="index.html">About</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
-          </div>
-        </nav>
-      
-        <ul class="right sidenav" id="mobile-demo">
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-</header>
-<!-- Portfolio Card Container -->
-    <div class="container" style="background-color: #ffffff; margin-top: 10px;">
-<!-- Row 1 -->
-            <div class="row">
-                  <h3 class="Title" style="text-align: center;">Portfolio</h3>
-              </div>
-          <div class="container" id= "portCards" > 
-                  <div class="row">
-                    <div class="col m6 s12">
-                      <div class="card"> 
-                        <div class="card-image">
-                          <img class="card-img" src="./Assets/Images/EventHub.png" 
-                           alt="EventHub App">
-                        </div>
-                        <div class="card-content" style="padding: 0;">
-                          <span class="card-title activator white-text" style=
-                          "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
-                          !important;><i class="material-icons right material-icons 
-                          white-text" style="padding-right: 7px;">more_vert</i>
-                          <a href="https://karna1014.github.io/Team3/" target="_blank">EventHub</a></span>
-                        </div> 
-                        <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
-                          <span class="card-title white-text text-darken-4" id="cardInfo">
-                          EventHub<i class="material-icons right" id="exit">close</i></span>
-                          <p>This application will allow you enter your 
-                            interests and a city and it will return all the ticketed 
-                            events from your search. It will save your previous search 
-                            history and allow you to re-search them at will.</p>
-                          <ul class="collection">
-                            <li class="collection-item">Team 3: Asad Rauf; Keshav Avva;
-                               Jasmin Rowdy; & myself;</li>
-                            <li class="collection-item">Our 1st attempt at a team 
-                              collaboration.</li>
-                            <li class="collection-item">Conquered 2 new server-side API's, 
-                              1 3rd party API, and new CSS program.</li>
-                            <li class="collection-item"><a href="https://github.com/Karna1014/Team3.git" 
-                              target="_blank">Click to Visit the Github site</a></li>
-                          </ulclass>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col m6 s12">
-                      <div class="card"> 
-                        <div class="card-image">
-                          <img class="card-img" src="./Assets/Images/WeatherApp.png" 
-                           alt="EventHub App">
-                        </div>
-                        <div class="card-content" style="padding: 0;">
-                          <span class="card-title activator white-text" style=
-                          "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
-                          !important;><i class="material-icons right material-icons 
-                          white-text" style="padding-right: 7px;">more_vert</i>
-                          <a href="https://karna1014.github.io/KCWeatherApp" target="_blank">KCWeatherApp</a></span>
-                        </div> 
-                        <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
-                          <span class="card-title white-text text-darken-4" id="cardInfo">
-                          WeatherApp<i class="material-icons right" id="exit">close</i></span>                         
-                            <p>This application will allow you enter your city or the city of interest 
-                              and it will return current weather as well 5 days of future conditions.  
-                              Utilizes an (API)Application Programming Interface to pull data into 
-                              the browser and features dynamically updated HTML and CSS powered by jQuery.</p>
-                            <ul class="collection">
-                              <li class="collection-item">Ajax calls used to hook into API to retrieve data in a 
-                              JSON format.</li>
-                              <li class="collection-item">"Search" results will save in localStorage.</li>
-                              <li class="collection-item">Search list will update dynamically when page resets.</li>
-                              <li class="collection-item"><a href="https://github.com/Karna1014/KCWeatherApp.git" 
-                                target="_blank">Click to Visit the Github site</a></li>
-                            </ulclass>
-                        </div>
-                      </div>
-                    </div>
+        </header>
+    <!-- Portfolio Card Container -->
+        <div class="container" id="portHldr" style="margin-top: 20px;">
+    <!-- Row 1 -->
+                <div class="row">
+                      <h3 class="Title" style="text-align: center;">Portfolio</h3>
                   </div>
-<!-- Row 2 -->
-                  <div class="row">
-                    <div class="col m6 s12">
-                      <div class="card"> 
-                        <div class="card-image">
-                          <img class="card-img" src="./Assets/Images/DayPlanner.png" 
-                          alt="EventHub App">
-                        </div>
-                        <div class="card-content" style="padding: 0;">
-                          <span class="card-title activator white-text" style=
-                          "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
-                          !important;><i class="material-icons right material-icons 
-                          white-text" style="padding-right: 7px;">more_vert</i>
-                          <a href="https://karna1014.github.io/KCDayPlanner/" target="_blank"></a>DayPlanner</a></span>
-                        </div> 
-                        <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
-                          <span class="card-title white-text text-darken-4" id="cardInfo">
-                          DayPlanner<i class="material-icons right" id="exit">close</i></span>
-                          <p>A simple calendar application that allows the user to save events 
-                          for each hour of the day. App will run in the browser and features 
-                          dynamically updated HTML and CSS powered by jQuery.</p>
-                          <ul class="collection">
-                            <li class="collection-item">Planner is set for standard business 
-                              hours (9 a.m. to 5 p.m.)in 1 hr blocks.</li>
-                            <li class="collection-item">Save/Commit" will store time and user 
-                              input in localStorage.</li>
-                            <li class="collection-item">Current Day/Date will update dynamically 
-                              daily at top of page.</li>
-                            <li class="collection-item">Input Field is highlighted to denote 
-                              current vs past and future events.</li>
-                            <li class="collection-item"><a href="https://github.com/Karna1014/KCDayPlanner.git" 
-                              target="_blank">Click to Visit the Github site</a></li> 
-                          </ulclass>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col m6 s12">
-                      <div class="card"> 
-                        <div class="card-image">
-                          <img class="card-img" src="./Assets/Images/Serenity.jpg" 
-                            alt="Temp">
-                        </div>
-                        <div class="card-content" style="padding: 0;">
-                          <span class="card-title activator white-text" style=
-                          "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
-                          !important;><i class="material-icons right material-icons 
-                          white-text" style="padding-right: 7px;">more_vert</i>
-                          <a href="#" target="_blank">Portfolio 4</a></span>
-                        </div> 
-                        <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
-                          <span class="card-title white-text text-darken-4" id="cardInfo">
-                          Project Name<i class="material-icons right" id="exit">close</i></span>
-                          <p>Description</p>
-                          <ul class="collection">
-                            <li class="collection-item"></li>
-                            <li class="collection-item"></li>
-                            <li class="collection-item"></li>
-                            <li class="collection-item"></li>
-                          </ulclass>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<!-- Row 3 -->
-                    <div class="row">
-                      <div class="col m6 s12">
-                        <div class="card"> 
-                          <div class="card-image">
-                            <img class="card-img" src="./Assets/Images/Serenity.jpg" 
-                            alt="Temp">
-                          </div>
-                          <div class="card-content" style="padding: 0;">
-                            <span class="card-title activator white-text" style=
+              <div class="container" id= "portCards" > 
+                      <div class="row">
+                        <div class="col m6 s12">
+                          <div class="card"> 
+                            <div class="card-image">
+                              <img class="card-img" src="./Assets/Images/EventHub.png" 
+                              alt="EventHub App">
+                            </div>
+                            <div class="card-content" style="padding: 0;">
+                              <span class="card-title activator white-text" style=
                               "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
-                              !important;>
-                              <i class="material-icons right material-icons 
-                                white-text" style="padding-right: 7px;">more_vert</i>
-                              <a href="#" target="_blank">Portfolio 5</a>
-                            </span>
-                          </div> 
-                          <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
-                            <span class="card-title white-text text-darken-4" id="cardInfo">
-                              Project Name
-                              <i class="material-icons right" id="exit">close</i>
-                            </span>
-                            <p>Project Description</p>
+                              !important;><i class="material-icons right material-icons 
+                              white-text" style="padding-right: 7px;">more_vert</i>
+                              <a href="https://karna1014.github.io/Team3/" id=depLink target="_blank">EventHub</a></span>
+                            </div> 
+                            <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
+                              <span class="card-title white-text text-darken-4" id="cardInfo">
+                              EventHub<i class="material-icons right" id="exit">close</i></span>
+                              <p>This application will allow you enter your 
+                                interests and a city and it will return all the ticketed 
+                                events from your search. It will save your previous search 
+                                history and allow you to re-search them at will.</p>
+                              <ul class="collection">
+                                <li class="collection-item">Team 3: Asad Rauf; Keshav Avva;
+                                  Jasmin Rowdy; & myself;</li>
+                                <li class="collection-item">Our 1st attempt at a team 
+                                  collaboration.</li>
+                                <li class="collection-item">Conquered 2 new server-side API's, 
+                                  1 3rd party API, and new CSS program.</li>
+                                <li class="collection-item"><a href="https://github.com/Karna1014/Team3.git" 
+                                  id="gitLink" target="_blank">Click to Visit the Github site</a></li>
+                              </ulclass>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col m6 s12">
+                          <div class="card"> 
+                            <div class="card-image">
+                              <img class="card-img" src="./Assets/Images/WeatherApp.png" 
+                              alt="EventHub App">
+                            </div>
+                            <div class="card-content" style="padding: 0;">
+                              <span class="card-title activator white-text" style=
+                              "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
+                              !important;><i class="material-icons right material-icons 
+                              white-text" style="padding-right: 7px;">more_vert</i>
+                              <a href="https://karna1014.github.io/KCWeatherApp" id=depLink target="_blank">KCWeatherApp</a></span>
+                            </div> 
+                            <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
+                              <span class="card-title white-text text-darken-4" id="cardInfo">
+                              WeatherApp<i class="material-icons right" id="exit">close</i></span>                         
+                                <p>This application will allow you enter your city or the city of interest 
+                                  and it will return current weather as well 5 days of future conditions.  
+                                  Utilizes an (API)Application Programming Interface to pull data into 
+                                  the browser and features dynamically updated HTML and CSS powered by jQuery.</p>
+                                <ul class="collection">
+                                  <li class="collection-item">Ajax calls used to hook into API to retrieve data in a 
+                                  JSON format.</li>
+                                  <li class="collection-item">"Search" results will save in localStorage.</li>
+                                  <li class="collection-item">Search list will update dynamically when page resets.</li>
+                                  <li class="collection-item"><a href="https://github.com/Karna1014/KCWeatherApp.git" 
+                                    id="gitLink" target="_blank">Click to Visit the Github site</a></li>
+                                </ulclass>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    <!-- Row 2 -->
+                      <div class="row">
+                        <div class="col m6 s12">
+                          <div class="card"> 
+                            <div class="card-image">
+                              <img class="card-img" src="./Assets/Images/DayPlanner.png" 
+                              alt="EventHub App">
+                            </div>
+                            <div class="card-content" style="padding: 0;">
+                              <span class="card-title activator white-text" style=
+                              "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
+                              !important;><i class="material-icons right material-icons 
+                              white-text" style="padding-right: 7px;">more_vert</i>
+                              <a href="https://karna1014.github.io/KCDayPlanner/" id=depLink target="_blank"></a>DayPlanner</a></span>
+                            </div> 
+                            <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
+                              <span class="card-title white-text text-darken-4" id="cardInfo">
+                              DayPlanner<i class="material-icons right" id="exit">close</i></span>
+                              <p>A simple calendar application that allows the user to save events 
+                              for each hour of the day. App will run in the browser and features 
+                              dynamically updated HTML and CSS powered by jQuery.</p>
+                              <ul class="collection">
+                                <li class="collection-item">Planner is set for standard business 
+                                  hours (9 a.m. to 5 p.m.)in 1 hr blocks.</li>
+                                <li class="collection-item">Save/Commit" will store time and user 
+                                  input in localStorage.</li>
+                                <li class="collection-item">Current Day/Date will update dynamically 
+                                  daily at top of page.</li>
+                                <li class="collection-item">Input Field is highlighted to denote 
+                                  current vs past and future events.</li>
+                                <li class="collection-item"><a href="https://github.com/Karna1014/KCDayPlanner.git" 
+                                  id="gitLink" target="_blank">Click to Visit the Github site</a></li> 
+                              </ulclass>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col m6 s12">
+                          <div class="card"> 
+                            <div class="card-image">
+                              <img class="card-img" src="./Assets/Images/Serenity.jpg" 
+                                alt="Temp">
+                            </div>
+                            <div class="card-content" style="padding: 0;">
+                              <span class="card-title activator white-text" style=
+                              "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
+                              !important;><i class="material-icons right material-icons 
+                              white-text" style="padding-right: 7px;">more_vert</i>
+                              <a href="#" id=depLink target="_blank">Portfolio 4</a></span>
+                            </div> 
+                            <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
+                              <span class="card-title white-text text-darken-4" id="cardInfo">
+                              Project Name<i class="material-icons right" id="exit">close</i></span>
+                              <p>Description</p>
                               <ul class="collection">
                                 <li class="collection-item"></li>
                                 <li class="collection-item"></li>
@@ -208,25 +178,29 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col m6 s12">
-                        <div class="card"> 
-                          <div class="card-image">
-                            <img class="card-img" src="./Assets/Images/Serenity.jpg" 
-                             alt="EventHub App">
-                          </div>
-                          <div class="card-content" style="padding: 0;">
-                            <span class="card-title activator white-text" style=
-                              "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
-                              !important;>
-                              <i class="material-icons right material-icons 
-                                white-text" style="padding-right: 7px;">more_vert</i>
-                              <a href="#" target="_blank">Portfolio 6</a>
-                            </span>
-                          </div> 
-                          <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
-                              <span class="card-title white-text text-darken-4" id="cardInfo">
-                              Project Name<i class="material-icons right" id="exit">close</i>
-                              </span>
+                    </div>
+    <!-- Row 3 -->
+                        <div class="row">
+                          <div class="col m6 s12">
+                            <div class="card"> 
+                              <div class="card-image">
+                                <img class="card-img" src="./Assets/Images/Serenity.jpg" 
+                                alt="Temp">
+                              </div>
+                              <div class="card-content" style="padding: 0;">
+                                <span class="card-title activator white-text" style=
+                                  "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
+                                  !important;>
+                                  <i class="material-icons right material-icons 
+                                    white-text" style="padding-right: 7px;">more_vert</i>
+                                  <a href="#" id=depLink target="_blank">Portfolio 5</a>
+                                </span>
+                              </div> 
+                              <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
+                                <span class="card-title white-text text-darken-4" id="cardInfo">
+                                  Project Name
+                                  <i class="material-icons right" id="exit">close</i>
+                                </span>
                                 <p>Project Description</p>
                                   <ul class="collection">
                                     <li class="collection-item"></li>
@@ -234,37 +208,69 @@
                                     <li class="collection-item"></li>
                                     <li class="collection-item"></li>
                                   </ulclass>
+                              </div>
+                            </div>
                           </div>
-                      </div>
-                      </div>
-                    </div>       
-          </div> 
-    </div>     
-<!-- Footer Begins  -->
-    <footer class="page-footer">
-      <div class="container col s12">
-          <div class="row center-align" style="margin: 0px; font-size: 16px; 
-              font-weight: bold;" id="socLinks">
-                  <a href="https://github.com/karna1014/" target="_blank"><i class="fab fa-github" 
-                      id="ftrIcon"></i> &nbsp; &nbsp; </a>
-                  <a href="./Assets/Images/KCutolo-Resume-2020.pdf" target="_blank"><i class="fas fa-file" 
-                      id="ftrIcon"></i> &nbsp; &nbsp; </a>
-                  <a href="https://linkedin.com/in/karnacutolo/" target="_blank"><i class="fab fa-linkedin" 
-                      id="ftrIcon"></i> &nbsp; &nbsp; </a>
+                          <div class="col m6 s12">
+                            <div class="card"> 
+                              <div class="card-image">
+                                <img class="card-img" src="./Assets/Images/Serenity.jpg" 
+                                alt="EventHub App">
+                              </div>
+                              <div class="card-content" style="padding: 0;">
+                                <span class="card-title activator white-text" style=
+                                  "font-weight:bold; padding-left: 10px; padding-bottom: 0px;"
+                                  !important;>
+                                  <i class="material-icons right material-icons 
+                                    white-text" style="padding-right: 7px;">more_vert</i>
+                                  <a href="#" id=depLink target="_blank">Portfolio 6</a>
+                                </span>
+                              </div> 
+                              <div class="card-reveal #3f51b5 indigo-text #bdbdbd grey lighten-1">
+                                  <span class="card-title white-text text-darken-4" id="cardInfo">
+                                  Project Name<i class="material-icons right" id="exit">close</i>
+                                  </span>
+                                    <p>Project Description</p>
+                                      <ul class="collection">
+                                        <li class="collection-item"></li>
+                                        <li class="collection-item"></li>
+                                        <li class="collection-item"></li>
+                                        <li class="collection-item"></li>
+                                      </ulclass>
+                              </div>
+                          </div>
+                          </div>
+                        </div>       
+              </div> 
+        </div>     
+    <!-- Footer Begins  -->
+        <footer class="page-footer">
+          <div class="container col s12">
+              <div class="row center-align" style="margin: 0px; font-size: 16px; 
+                  font-weight: bold;" id="socLinks">
+                      <a href="https://github.com/karna1014/" target="_blank"><i class="fab fa-github" 
+                          id="ftrIcon"></i> &nbsp; &nbsp; </a>
+                      <a href="./Assets/Images/KCutolo-Resume-2020.pdf" target="_blank"><i class="fas fa-file" 
+                          id="ftrIcon"></i> &nbsp; &nbsp; </a>
+                      <a href="https://linkedin.com/in/karnacutolo/" target="_blank"><i class="fab fa-linkedin" 
+                          id="ftrIcon"></i> &nbsp; &nbsp; </a>
+              <div class="row center-align" id="info" style="padding-top: 10px; margin: 0px; font-size: 14px; 
+                color: #04166e;">karna.cutolo@gmail.com | 484.557.9965</div>
+              </div>
+              </div>
           </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container center-align" id="ftrCpy" style="width: 100%; 
-            color: #04166e; padding: 0px;">Copyright ©2019 All rights reserved | 
-            This is my Portfolio
-        </div>
-      </div>
-    </footer>  
-<!--Script Info  -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src= "script.js"></script>
-    <script type="text/javascript" src="./materialize.js"></script> 
-  
-  </body>
+          <div class="footer-copyright">
+            <div class="container center-align" id="ftrCpy" style="width: 100%; 
+                color: #04166e; padding: 0px;">Copyright ©2019 All rights reserved | 
+                This is my Portfolio
+            </div>
+          </div>
+        </footer>  
+    <!--Script Info  -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src= "script.js"></script>
+        <script type="text/javascript" src="./materialize.js"></script> 
+      
+      </body>
 </html>

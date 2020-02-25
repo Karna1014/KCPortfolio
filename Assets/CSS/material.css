@@ -6665,7 +6665,7 @@
     -webkit-transition: .3s color;
     transition: .3s color;
   }
-  
+  .card-reveal
   /* Textarea */
   textarea {
     width: 100%;

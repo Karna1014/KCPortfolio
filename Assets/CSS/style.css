@@ -10,12 +10,17 @@ body {
     background-color: #dedede;
     color: #3f51b5;
   }
+
+.nameBar {
+  font-family: 'Rock Salt';
+}
 a.nameBar {
     padding-top: 10px;
     padding-left: 15px;
     color: #3f51b5;
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Rock Salt';
 }
 
 #nav-mobile li > a {
@@ -64,6 +69,10 @@ a.nameBar {
 
 /* Portfolio Cards */
 
+#portHldr {
+  background-image: url("../Images/grey_wash_wall_@2X.png");
+}
+
 .Title {
     color: #3f51b5;
 }
@@ -102,7 +111,7 @@ a {
     color: white;
 }
 
-a:hover {
+a#depLink:hover {
     color: rgb(197, 66, 105);
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -110,7 +119,22 @@ a:hover {
     z-index: 3;
   }
 
+a#gitLink {
+  color: #3f51b5;
+}
 
+a#gitLink:hover {
+  color: rgb(197, 66, 105);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  z-index: 3;
+}
+
+
+
+
+  
 
 #exit {
     font-size: 20px;
@@ -123,6 +147,8 @@ a:hover {
 li {
     font-size: 15px;
 }
+
+
 
 /* Portfolio Cards Ends */
 
@@ -168,7 +194,7 @@ li {
   }
 
   label.lblBtn {
-    margin-left: 60px;
+    margin-left: 0px;
   }
 
 /* Footer */
@@ -193,7 +219,9 @@ li {
 #socIcon {
     background-image: url("../Images/light-grey-terrazzo.png");
 }
-
+.page-footer .footer-copyright {
+  min-height: 30px;
+}
  
 .footer-copyright {
     padding-bottom: 0;

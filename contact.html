@@ -7,6 +7,8 @@
         <link href="Assets/CSS/style.css" rel="stylesheet">
 <!-------link to jQuery file-->
         <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-------link to Materialize-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.js"></script>
 <!-------link to CSS Reset file-->
         <link rel="stylesheet" type="text/css" href="Assets/CSS/Reset.css">
 <!-- link to the custom css file -->
@@ -17,6 +19,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
 <!-------link to GoogleFonts-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
     </head>
     
     <body>
@@ -42,42 +45,46 @@
           </ul>
       </header>
 
-    <div class="container" style="background-color: #ffffff; margin-top: 10px;">
-      <div class="row">
-        <div class= "col s12">
-          <h3 class= "center" style="color: #3f51b5";>Contact</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12" id="inputValue">
-          <i class="material-icons prefix" id="inputIcons">account_circle</i>
-          <input id="icon_prefix" type="text">
-          <label for="icon_prefix">Full Name</label>
-        </div>
-      </div> 
-      <div class="row">
-        <div class="input-field col s12" id="inputValue">
-          <i class="material-icons prefix" id="inputIcons">email</i>
-          <input id="icon_prefix" type="text">
-          <label for="icon_prefix">Example@gmail.com</label>
-        </div>
-      </div> 
-      <div class="row">
-        <div class="container">
-          <div class="input-field col s12" id="msgBox">
-            <a class="btn-floating btn-large waves-effect waves-light indigo darken-4">
-              <i class="material-icons center" id="inputIcon2">message</i></a>
-            <h4 class="center" style="color: #3f51b5;">Reach Out!</h4>
-            <input id="icon_prefix" type="text">
-            <label for="icon_prefix" class="lblBtn">Drop Me a Line</label>
+    <div class="container" id="contactForm" style="background-color: #ffffff; margin-top: 10px;">
+        <div class="row">
+          <div class= "col s12">
+            <h3 class= "center" style="color: #3f51b5";>Contact</h3>
           </div>
         </div>
-      </div>
+        <div class="row">
+        <form action="">
+          <div class="input-field col s12" id="inputValue">
+            <i class="material-icons prefix" id="inputIcons">account_circle</i>
+            <input id="icon_prefix" type="text">
+            <label for="icon_prefix">Full Name</label>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="input-field col s12" id="inputValue">
+            <i class="material-icons prefix" id="inputIcons">email</i>
+            <input id="icon_prefix" type="text">
+            <label for="icon_prefix">Example@gmail.com</label>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="container">
+            <div class="input-field col s12" id="msgBox">
+              <i class="material-icons prefix" id="inputIcons">mode_edit</i>
+              <input id="icon_prefix" type="text">
+              <label for="icon-prefix">Type Message Here!</label>
+              <a class="btn-floating right btn-large waves-effect waves-light 
+              indigo darken-4" type="submit" name="action">
+              <i class="material-icons center" id="inputIcon2">message</i></a>
+              <h4 class="center" style="color: #3f51b5;"></h4>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
       
     <footer class="page-footer fixed">
       <div class="container col s12">
-           <div class="row center-align" style="margin: 0px; font-size: 16px; 
+          <div class="row center-align" style="margin: 0px; font-size: 16px; 
                font-weight: bold;" id="socLinks">
                    <a href="https://github.com/karna1014/" target="_blank"><i class="fab fa-github" 
                        id="ftrIcon"></i> &nbsp; &nbsp; </a>
@@ -85,7 +92,10 @@
                        id="ftrIcon"></i> &nbsp; &nbsp; </a>
                    <a href="https://linkedin.com/in/karnacutolo/" target="_blank"><i class="fab fa-linkedin" 
                        id="ftrIcon"></i> &nbsp; &nbsp; </a>
-            </div>
+          <div class="row center-align" id="info" style="padding-top: 10px; margin: 0px; font-size: 14px; 
+            color: #04166e;">karna.cutolo@gmail.com | 484.557.9965</div>
+          </div>
+          </div>
         </div>
       <div class="footer-copyright">
           <div class="container center-align" id="ftrCpy" style=" width: 100%; 
