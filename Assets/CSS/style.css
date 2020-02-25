@@ -70,7 +70,7 @@ a.nameBar {
 /* Portfolio Cards */
 
 #portHldr {
-  background-image: url("../Images/grey_wash_wall_@2X.png");
+  background-color: #dedede;
 }
 
 .Title {
@@ -216,9 +216,9 @@ li {
     z-index: 3;
   }
 
-#socIcon {
+/* #socIcon {
     background-image: url("../Images/light-grey-terrazzo.png");
-}
+} */
 .page-footer .footer-copyright {
   min-height: 30px;
 }
