@@ -37,7 +37,7 @@ It will be the first Point of Contact where I can showcase my applications to pe
 
 **Link to Site**
 
-### https://karna1014.github.io/Team3/
+### https://karna1014.github.io/KCPortfolio/
 
 ## Bio Page
 
