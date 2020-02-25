@@ -91,6 +91,11 @@ img.card-img {
     font-weight: bold;
 }
 
+span.card-title.activator.white-text {
+  margin: 0px 0px 8px;
+  padding: 0px 0px 0px 10px;
+}
+
 a {
     font-size: 24px;
     font-weight: bold;

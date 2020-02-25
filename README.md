@@ -33,7 +33,7 @@ It will be the first Point of Contact where I can showcase my applications to pe
 
 
 
-![Index Page](./Assets/Images/AboutMe.png)
+![Index Page]()
 
 ![Portfolio Page](./Assets/Images/Portfolio.png)
 
