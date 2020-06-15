@@ -8,6 +8,9 @@ A professional site showcasing my best works to date.  It includes a short Bio a
 Usage:
 It will be the first Point of Contact where I can showcase my applications to perspective employers/clients in multiple mediums. This will demonstrate my strongest work and will lead to employment.
 
+**Technologies Used:**
+
+    *HTML, JavaScript, Materialize
 
 ### File List:
 
