@@ -206,6 +206,33 @@ li {
     margin-left: 0px;
   }
 
+  #techIcon {
+    color: #3f51b5;
+    padding-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  #techIcon:hover {
+    color: rgb(197, 66, 105);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 3;
+  }
+
+  #techIcon2 {
+    color: #3f51b5;
+    padding-bottom: 0px;
+    margin-right: 20px;
+  }
+
+  #techIcon2:hover {
+    color: rgb(197, 66, 105);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 3;
+  }
 /* Footer */
 
 #ftrIcon {
@@ -224,6 +251,8 @@ li {
     transform: scale(1.5); 
     z-index: 3;
   }
+
+  
 
 /* #socIcon {
     background-image: url("../Images/light-grey-terrazzo.png");
